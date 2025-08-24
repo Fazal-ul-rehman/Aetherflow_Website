@@ -6,7 +6,7 @@
         
         <span>
           <img src="/src/assets/logo/logoDark.png" alt="Logo" class="w-40 h-auto hidden dark:block" />
-          <img src="@/assets/logo/logoLight.png" alt="Logo" class="w-40 h-auto block dark:hidden" />
+          <!-- <img src="@/assets/logo/logoLight.png" alt="Logo" class="w-40 h-auto block dark:hidden" /> -->
         </span>
       </a>
       <ul class="hidden md:flex items-center gap-6 text-sm">
