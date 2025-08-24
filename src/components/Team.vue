@@ -31,60 +31,68 @@
 </template>
 
 <script setup>
+
+import fazalImg from "/src/assets/images/fazal.jpeg"
+import nafeesImg from "/src/assets/images/nafees.jpg"
+import zeshanImg from "/src/assets/images/zeshan.jpg"
+import saddiqueImg from "/src/assets/images/saddique.jpg"
+import emptyImg from "/src/assets/images/empty.jpg"
+import hammadImg from "/src/assets/images/hammad.jpg"
+
 const team = [
   {
     name: "Fazal Ur Rehman",
     designation: "Director & Co-Founder",
     email: "fazal@aetherflow.pk",
-    image: "/src/assets/images/fazal.jpeg",
+    image: fazalImg,
   },
   {
     name: "Nafees Ur Rehman",
     designation: "CEO & Co-Founder",
     email: "ceo@aetherflow.pk",
-    image: "/src/assets/images/nafees.heic",
+    image: nafeesImg,
   },
   {
     name: "Muhammad Zeeshan",
     designation: "Social Media Expert & Co-Founder",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/zeshan.jpg",
+    image: zeshanImg,
   },
   {
     name: "Saddique Ur Rehman",
     designation: "Senior Software Engineer & CTO",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/saddique.heic",
+    image: saddiqueImg,
   },
   {
     name: "Danish Ali",
     designation: "E-commerce Manager",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/empty.jpg",
+    image: emptyImg,
   },
   {
     name: "Muhammad Kamran Ali",
     designation: "Senior Graphic Designer",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/empty.jpg",
+    image: emptyImg,
   },
   {
     name: "Abdullah Attique",
     designation: "CEO Assistant",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/empty.jpg",
+    image: emptyImg,
   },
   {
     name: "Muhammad Hassan",
     designation: "Employee",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/empty.jpg",
+    image: emptyImg,
   },
   {
     name: "Muhmmad Hammad",
     designation: "Employee",
     email: "contact@aetherflow.pk",
-    image: "/src/assets/images/hammad.jpg",
+    image: hammadImg,
   },
 ]
 </script>
