@@ -1,31 +1,50 @@
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount } from 'vue'
+import ebayImg from "/src/assets/images/ebay2.png"
+import ebayImg2 from "/src/assets/images/ebay3.png"
+import shopifyStore from "/src/assets/images/store.png"
+import tikkaTonic from "/src/assets/images/tikkatonicWebsite.png"
+import tikkaTonicLogo from "/src/assets/images/tikkatonic.png"
+
 const slides = [
   {
     icon: 'fa-solid fa-chart-line',
     title: '6-Figure eBay Scale-Up',
-    details: '📈 Helped a small startup scale its eBay store to 6-figure annual sales within 12 months.',
+    details: '📈 Helped a small startup scale its eBay store to 6-figure annual sales within 2 months.',
     progress: 100,
+    img: ebayImg2,
+  },
+  {
+    icon: 'fa-solid fa-chart-line',
+    title: 'Building Trust, Driving Sales',
+    details: 'We successfully managed our client’s eBay store, maintaining an impressive 98.9% positive feedback rating. With consistent optimization and growth strategies, the store achieved thousands of monthly sales. This journey reflects our commitment to driving sustainable e-commerce success.',
+    progress: 100,
+    img: ebayImg,
   },
   {
     icon: 'fa-solid fa-laptop-code',
     title: 'E‑Commerce Platform Launch',
     details: '💻 Developed a fully functional e-commerce platform for a clothing brand, boosting their online presence.',
     progress: 100,
+    img: shopifyStore,
+  },
+   {
+    icon: 'fa-solid fa-laptop-code',
+    title: 'TikkaTonic – A Digital Flavor Journey',
+    details: '🛒 We had the privilege of developing TikkaTonic.eu, a modern restaurant website for our German client. With a clean and beautiful UI/UX design, the platform delivers a seamless browsing experience, allowing customers to explore the menu, discover events, and easily make reservations. This project reflects our ability to blend design and functionality, helping restaurants strengthen their digital presence and attract more customers.',
+    progress: 100,
+    img: tikkaTonic,
+    
   },
   {
     icon: 'fa-solid fa-palette',
     title: 'Brand Identity Makeover',
-    details: '🎨 Designed impactful logos, brochures, and brand identity that helped businesses strengthen customer trust.',
+    details: '🎨 Designed impactful logos, brochures, Menu Cards and brand identity that helped businesses strengthen customer trust.',
     progress: 100,
+    img: tikkaTonicLogo,
   },
-  {
-    icon: 'fa-solid fa-bag-shopping',
-    title: 'Shopify Growth Engine',
-    details: '🛒 Built and managed multiple Shopify stores with sustainable long-term growth strategies.',
-    progress: 100,
-  },
+ 
 ]
 const cur = ref(0)
 let timer
@@ -43,7 +62,7 @@ onBeforeUnmount(() => clearInterval(timer))
         <div class="carousel-track" :style="{ transform: `translateX(-${cur*100}%)` }">
           <div v-for="(s, i) in slides" :key="i" class="carousel-card p-8 sm:p-12 grid md:grid-cols-2 gap-8 items-center bg-white dark:bg-black">
             <div class="relative">
-              <img src="/src/assets/vectors/success.svg" alt="Success vector" class="w-full max-w-md mx-auto" />
+              <img :src="s.img" alt="Success vector" class="w-full max-w-md mx-auto" />
             </div>
             <div class="space-y-4">
               <div class="text-4xl"><i :class="s.icon" class="text-primary"></i></div>

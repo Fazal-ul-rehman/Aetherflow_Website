@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Disallow sensitive or unnecessary paths
+Disallow: /admin
+Disallow: /api
+Disallow: /private
+Disallow: /tmp
+
+# Point search engines to your sitemap
+Sitemap: https://www.aetherflow.pk/sitemap.xml

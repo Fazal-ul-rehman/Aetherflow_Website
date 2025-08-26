@@ -8,7 +8,7 @@
         
         <article class="rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/webDevelopment.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-60" />
+            <img src="/src/assets/images/webDevelopment.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-70" />
 
           </div>
           
@@ -35,7 +35,7 @@
         <!-- Card 4: Graphic Design -->
         <article class="rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/graphicDesigning.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-60" />
+            <img src="/src/assets/images/graphicDesigning.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-70" />
 
           </div>
           <div class="relative h-28 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
@@ -60,7 +60,7 @@
         <!-- Card 1: eBay Handling -->
         <article class="rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/ebay.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-60" />
+            <img src="/src/assets/images/ebay.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-70" />
             
           </div>
           <div class="relative h-28 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
@@ -86,7 +86,7 @@
         <!-- Card 2: Shopify -->
         <article class="rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/shopify.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-90 dark:opacity-60" />
+            <img src="/src/assets/images/shopify.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-90 dark:opacity-70" />
 
           </div>
           <div class="relative h-28 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
@@ -114,7 +114,7 @@
         <!-- Card 5: Product Research -->
         <article class="rounded-3xl bdrop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/trends.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-60" />
+            <img src="/src/assets/images/trends.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-70" />
 
           </div>
           <div class="relative h-28 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
@@ -137,7 +137,7 @@
         <!-- Card 6: Digital Marketing -->
         <article class="rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-soft transition group reveal">
           <div class="relative w-100 h-56 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
-            <img src="/src/assets/images/digitalMarketing.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-90 dark:opacity-60" />
+            <img src="/src/assets/images/digitalMarketing.png" alt="eBay" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-90 dark:opacity-70" />
 
           </div>
           <div class="relative h-28 bg-gradient-to-r from-blue-50 to-white dark:from-blue-950/40 dark:to-transparent">
