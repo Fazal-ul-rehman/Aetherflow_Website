@@ -7,6 +7,15 @@
         <div class="flex items-center gap-4 opacity-80">
           <a href="#home" class="hover:text-primary"><i class="fa-solid fa-arrow-up"></i> Back to top</a>
           <a href="#contact" class="hover:text-primary"><i class="fa-solid fa-envelope"></i> Contact</a>
+           <a 
+            href="https://vue-firebase-hrms-ut8f-roan.vercel.app" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            class="hover:text-primary"
+          >
+            <i class="fa-solid fa-user-tie"></i> Employee Portal
+          </a>
+          
         </div>
       </div>
     </div>
