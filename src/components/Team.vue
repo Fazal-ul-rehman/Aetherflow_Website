@@ -38,6 +38,7 @@ import zeshanImg from "/src/assets/images/zeshan.jpg"
 import saddiqueImg from "/src/assets/images/saddique.jpg"
 import emptyImg from "/src/assets/images/empty.jpg"
 import hammadImg from "/src/assets/images/hammad.jpg"
+import abdullahImg from "/src/assets/images/abdullah1.jpg"
 
 const team = [
   {
@@ -80,7 +81,7 @@ const team = [
     name: "Abdullah Attique",
     designation: "CEO Assistant",
     email: "contact@aetherflow.pk",
-    image: emptyImg,
+    image: abdullahImg,
   },
   {
     name: "Muhammad Hassan",

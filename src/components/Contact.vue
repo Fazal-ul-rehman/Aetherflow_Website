@@ -9,6 +9,20 @@
           <li class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-primary"></i> Pindi Das road, Shahdara Lahore, Pakistan</li>
         </ul>
         <p class="mt-6 italic text-primary">✨ “The future belongs to those who dare to create it.”</p>
+
+        <div class="mt-6 rounded-2xl overflow-hidden shadow-md">
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212.3347025776722!2d74.26996429894608!3d31.624122541901386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39191d5111d9b187%3A0xf22d04a0e2d49429!2sAetherflow%20Pakistan!5e0!3m2!1sen!2sde!4v1756635072855!5m2!1sen!2sde"
+          width="100%" 
+          height="200" 
+          style="border:0;" 
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+
       </div>
       <form @submit.prevent="submitForm" class="bg-white dark:bg-black border border-gray-200 dark:border-gray-800 rounded-3xl p-6 shadow-sm space-y-4">
         <div class="grid sm:grid-cols-2 gap-4">
