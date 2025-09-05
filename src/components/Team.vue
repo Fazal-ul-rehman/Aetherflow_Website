@@ -78,12 +78,6 @@ const team = [
     image: emptyImg,
   },
   {
-    name: "Abdullah Attique",
-    designation: "CEO Assistant",
-    email: "contact@aetherflow.pk",
-    image: abdullahImg,
-  },
-  {
     name: "Muhammad Hassan",
     designation: "Employee",
     email: "contact@aetherflow.pk",
