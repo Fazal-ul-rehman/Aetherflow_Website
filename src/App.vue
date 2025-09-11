@@ -1,4 +1,3 @@
-
 <template>
   <div :class="[isDark ? 'dark' : '']">
     <div class="min-h-screen font-sans">
@@ -29,7 +28,12 @@ import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import Team from './components/Team.vue'
 
-const isDark = ref(document.documentElement.classList.contains('dark'))
+// 1. Initialize dark mode
+const savedTheme = localStorage.getItem('aetherflow-theme')
+const isDark = ref(savedTheme ? savedTheme === 'dark' : true) // default to dark
+
+// 2. Apply dark class immediately
+document.documentElement.classList.toggle('dark', isDark.value)
 
 const toggleDark = () => {
   isDark.value = !isDark.value
@@ -38,9 +42,14 @@ const toggleDark = () => {
 }
 
 onMounted(() => {
-  const io = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('revealed') })
-  }, { threshold: 0.1 })
-  document.querySelectorAll('.reveal').forEach(el => io.observe(el))
+  const io = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((e) => {
+        if (e.isIntersecting) e.target.classList.add('revealed')
+      })
+    },
+    { threshold: 0.1 }
+  )
+  document.querySelectorAll('.reveal').forEach((el) => io.observe(el))
 })
 </script>

@@ -11,6 +11,9 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
     "firebase": "^12.1.0",
+    "framer-motion": "^12.23.12",
+    "gsap": "^3.13.0",
+    "three": "^0.180.0",
     "vue": "^3.4.29"
   },
   "devDependencies": {

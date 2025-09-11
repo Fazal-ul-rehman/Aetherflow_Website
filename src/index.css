@@ -10,3 +10,7 @@ html, body { height: 100%; }
 
 .carousel-track { display: flex; transition: transform 600ms ease; }
 .carousel-card { min-width: 100%; }
+
+html {
+    transition: background-color 0.3s, color 0.3s;
+  }
