@@ -1,19 +1,26 @@
 <template>
   <div :class="[isDark ? 'dark' : '']">
+     <AnnouncementPopup />  <!-- popup stays OUTSIDE the blur container -->
+
+    <div id="site-content" class="min-h-screen font-sans">  <!-- website wrapper -->
     <div class="min-h-screen font-sans">
       <Navbar :darkMode="isDark" @toggleDark="toggleDark" />
       <main class="pt-16">
         <Home />
         <Services />
+        <StatsSection />
         <Testimonials />
         <SuccessStories />
         <About />
+        
         <Team />
         <Contact />
       </main>
       <Footer />
     </div>
   </div>
+  </div>
+  
 </template>
 
 <script setup>
@@ -27,6 +34,8 @@ import SuccessStories from './components/SuccessStories.vue'
 import Contact from './components/Contact.vue'
 import Footer from './components/Footer.vue'
 import Team from './components/Team.vue'
+import StatsSection from './components/StatsSection.vue'
+import AnnouncementPopup from "./components/AnnouncementPopup.vue";
 
 // 1. Initialize dark mode
 const savedTheme = localStorage.getItem('aetherflow-theme')

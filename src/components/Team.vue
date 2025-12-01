@@ -56,7 +56,8 @@ const team = [
   { name: "Muhammad Kamran Ali", designation: "Senior Graphic Designer", email: "contact@aetherflow.pk", image: emptyImg },
   { name: "Muhammad Hassan", designation: "Employee", email: "contact@aetherflow.pk", image: emptyImg },
   { name: "Muhmmad Hammad", designation: "Employee", email: "contact@aetherflow.pk", image: hammadImg },
-  { name: "Azhar", designation: "Intern", email: "contact@aetherflow.pk", image: emptyImg },
+  { name: "Azhar", designation: "Part Time Employee", email: "contact@aetherflow.pk", image: emptyImg },
+  { name: "Ali Raza", designation: "Employee", email: "contact@aetherflow.pk", image: emptyImg },
 ]
 
 onMounted(() => {

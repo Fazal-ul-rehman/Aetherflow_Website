@@ -5,16 +5,14 @@
         Our Services
       </h2>
 
-      <!-- Grid 3 rows x 2 cols -->
       <div class="grid gap-8 md:grid-cols-2">
-
         <article v-for="(service, index) in serviceCards" :key="index"
           class="service-card rounded-3xl drop-shadow-xl border border-gray-200 dark:border-gray-800 overflow-hidden hover:shadow-lg transition group opacity-0 translate-y-12"
         >
           <div class="relative w-100 h-56 bg-gradient-to-r from-purple-700/20 to-pink-400/10 dark:from-purple-900/40 dark:to-transparent">
             <img :src="service.img" :alt="service.title" class="absolute inset-0 w-full h-full object-cover select-none pointer-events-none opacity-80 dark:opacity-70" />
           </div>
-          
+
           <div class="relative h-28 bg-gradient-to-r from-purple-700/10 to-pink-400/10 dark:from-purple-900/30 dark:to-transparent">
             <div class="absolute left-6 top-6 pr-6">
               <h3 class="text-2xl font-semibold flex items-center gap-3">
@@ -25,6 +23,7 @@
               </p>
             </div>
           </div>
+
           <div class="p-6 space-y-4">
             <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
               <li v-for="(item, idx) in service.features" :key="idx">
@@ -36,7 +35,6 @@
             </p>
           </div>
         </article>
-
       </div>
     </div>
   </section>
@@ -49,8 +47,36 @@ import ebayImg from "/src/assets/images/ebay.png"
 import shopifyImg from "/src/assets/images/shopify.png"
 import trendsImg from "/src/assets/images/trends.png"
 import marketingImg from "/src/assets/images/digitalMarketing.png"
+import vpsImg from "/src/assets/images/server.png"
+import domainImg from "/src/assets/images/domain.png"
 
 const serviceCards = [
+  // NEW SERVICES
+  {
+    title: "High-Speed VPS Hosting",
+    description: "Affordable, fast and secure VPS servers worldwide.",
+    icon: "fa-solid fa-server",
+    img: vpsImg,
+    features: [
+      "Germany, USA, UK, France Servers",
+      "Windows/Linux Operating System",
+      "High-Speed Performance",
+      "Low-Cost Plans",
+      "Online Payment Methods",
+      "Paypal, Debit & Credit Card Acceptable",
+      "24/7 Customer support on Whatsapp"
+    ],
+    note: "💡 “Powerful hosting doesn’t have to be expensive.”"
+  },
+  {
+    title: "Domain Registration",
+    description: "Secure your business identity with a perfect domain name.",
+    icon: "fa-solid fa-globe",
+    img: domainImg,
+    features: ["Cheap Domain Prices","Instant Registration","All TLDs Available","DNS & Nameserver Setup",  "Online Payment Methods",
+      "Paypal, Debit & Credit Card Acceptable",
+      "24/7 Customer support on Whatsapp"]
+  },
   {
     title: "Website Development",
     description: "Scalable and modern business websites & web apps.",
@@ -97,7 +123,9 @@ const serviceCards = [
     icon: "fa-solid fa-bullhorn",
     img: marketingImg,
     features: ["SEO Optimization","Social Media Marketing","Paid Ads Management"]
-  },
+  }
+
+  
 ]
 
 import { onMounted } from "vue"

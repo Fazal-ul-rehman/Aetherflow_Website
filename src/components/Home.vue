@@ -1,4 +1,5 @@
 <template>
+
   <section id="home" class="relative min-h-[88vh] grid place-items-center overflow-hidden">
     <!-- Background overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-purple-700/20 via-purple-800/20 to-white/90 dark:to-black/90"></div>
@@ -36,11 +37,14 @@
         </a>
       </div>
     </div>
+   
   </section>
 </template>
 
 <script setup>
 import { onMounted } from 'vue'
+
+
 
 onMounted(() => {
   const observer = new IntersectionObserver(
