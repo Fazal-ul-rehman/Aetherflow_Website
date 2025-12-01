@@ -47,7 +47,7 @@ import ebayImg from "/src/assets/images/ebay.png"
 import shopifyImg from "/src/assets/images/shopify.png"
 import trendsImg from "/src/assets/images/trends.png"
 import marketingImg from "/src/assets/images/digitalMarketing.png"
-import vpsImg from "/src/assets/images/server.png"
+import vpsImg from "/src/assets/images/Server.png"
 import domainImg from "/src/assets/images/domain.png"
 
 const serviceCards = [
