@@ -1,6 +1,6 @@
 <template>
   <section id="services" class="py-20 px-4 sm:px-6 lg:px-8 bg-white dark:bg-black">
-    <div class="max-w-7xl mx-auto">
+    <div class="max-w-6xl mx-auto">
       <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
         Our Services
       </h2>
