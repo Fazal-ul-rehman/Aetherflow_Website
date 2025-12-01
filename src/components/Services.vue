@@ -48,10 +48,10 @@ import shopifyImg from "/src/assets/images/shopify.png"
 import trendsImg from "/src/assets/images/trends.png"
 import marketingImg from "/src/assets/images/digitalMarketing.png"
 import vpsImg from "/src/assets/images/Server.png"
-import domainImg from "/src/assets/images/domain.png"
+import domainImg from "/src/assets/images/Domain.png"
 
 const serviceCards = [
-  // NEW SERVICES
+  // NEW SERVICES+
   {
     title: "High-Speed VPS Hosting",
     description: "Affordable, fast and secure VPS servers worldwide.",
