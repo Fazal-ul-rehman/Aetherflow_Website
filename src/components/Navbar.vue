@@ -79,6 +79,7 @@ const open = ref(false)
 const nav = [
   { label: 'Home', href: '#home' },
   { label: 'Our Services', href: '#services' },
+  { label: 'VPS Pricing', href: '#vpspricing' },
   { label: 'Customer Remarks', href: '#testimonials' },
   { label: 'Our Success Stories', href: '#success' },
   { label: 'About Us', href: '#about' },

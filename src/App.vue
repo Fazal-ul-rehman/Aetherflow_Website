@@ -7,12 +7,13 @@
       <Navbar :darkMode="isDark" @toggleDark="toggleDark" />
       <main class="pt-16">
         <Home />
+        <VpsSection />
         <Services />
         <StatsSection />
         <Testimonials />
         <SuccessStories />
         <About />
-        
+       
         <Team />
         <Contact />
       </main>
@@ -36,6 +37,7 @@ import Footer from './components/Footer.vue'
 import Team from './components/Team.vue'
 import StatsSection from './components/StatsSection.vue'
 import AnnouncementPopup from "./components/AnnouncementPopup.vue";
+import VpsSection from "./components/VpsComponent.vue";
 
 // 1. Initialize dark mode
 const savedTheme = localStorage.getItem('aetherflow-theme')

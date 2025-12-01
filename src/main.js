@@ -3,6 +3,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import './index.css'
 import '@fortawesome/fontawesome-free/css/all.min.css'
+import 'flag-icons/css/flag-icons.min.css'
+
 
 const saved = localStorage.getItem('aetherflow-theme')
 if (saved === 'dark') {
